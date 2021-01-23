@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Boton simple en JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Dale click para acceder a la fecha y hora.</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
