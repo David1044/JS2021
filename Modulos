@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Code</h2>
+
+<p id="prueba"></p>
+
+<script>
+var Aplicacion = new Object();
+
+Aplicacion.Modulos = new Array();
+Aplicacion.Modulos[0] = new Object();
+Aplicacion.Modulos[0].titulo = "Lector RSS";
+
+var inicial = new Object();
+inicial.estado = 1;
+inicial.publico = 0;
+inicial.nombre = "Modulo_RSS";
+inicial.datos = new Object();
+
+Aplicacion.Modulos[0].objetoInicial = inicial;
+</script>
+
+</body>
+</html>
