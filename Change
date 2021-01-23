@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Js</h2>
+
+<p1 id="demo">Cambiar contenido con un Click.</p1>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Texto nuevo!"'>Click!</button>
+
+
+
+
+</body>
+</html>
