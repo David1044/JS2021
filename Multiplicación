@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Multiplicación</h2>
+
+<p id="prueba"></p>
+
+<script>
+var x = 8;
+var y = 2;
+var z = x * y;
+document.getElementById("prueba").innerHTML = z;
+</script>
+
+</body>
+</html>
