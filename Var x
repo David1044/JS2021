@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Operaciones</h2>
+
+<p id="prueba"></p>
+
+<script>
+var x = 10;
+document.getElementById("prueba").innerHTML = x;
+</script>
+
+</body>
+</html>
