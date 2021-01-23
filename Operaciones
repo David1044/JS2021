@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Operaciones en JavaScript</h2>
+
+<p>x = 6, y = 2,  z = x + y, resultado de la suma = z:</p>
+
+<p id="prueba"></p>
+
+<script>
+var x = 6;
+var y = 2;
+var z = x + y;
+document.getElementById("prueba").innerHTML = z;
+</script>
+
+</body>
+</html>
