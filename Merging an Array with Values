@@ -1,0 +1,16 @@
+//TuxHF Code
+<html>
+<body>
+
+<h2>Concat()</h2>
+
+<p id="demo"></p>
+
+<script>
+    var arr1 = ["Emanuel", "David", "Santiago"];
+    var myChildren = arr1.concat("Peter"); 
+    document.getElementById("demo").innerHTML = myChildren;
+    </script>
+
+</body>
+</html>
