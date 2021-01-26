@@ -1,0 +1,14 @@
+//TuxHF Code
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+{"employees":[
+  { "firstName":"John", "lastName":"Doe" },
+  { "firstName":"Anna", "lastName":"Smith" },
+  { "firstName":"Peter", "lastName":"Jones" }
+]}
+</script>
+</head>
+
+</html>
