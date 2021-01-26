@@ -1,0 +1,20 @@
+//TuxHF Code
+<html>
+<body>
+
+<h2>Concat()</h2>
+
+<p>Concatenate arrays:</p>
+
+<p id="demo"></p>
+
+<script>
+var myHijas = ["Ximena", "Valeria"];
+var myHijos = ["Santiago", "David", "Mateo", "Juan"];
+var myChildren = myHijas.concat(myHijos);
+
+document.getElementById("demo").innerHTML = myChildren;
+</script>
+
+</body>
+</html>
