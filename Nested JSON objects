@@ -1,0 +1,26 @@
+//TuxHF Code
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>How to access nested JSON objects.</p>
+
+<p id="demo"></p>
+
+<script>
+var myObj = {
+  "name":"David",
+  "age":21,
+  "cars": {
+  "car1":"Tesla",
+  "car2":"BMW",
+  "car3":"Audi"
+  }
+}
+document.getElementById("demo").innerHTML += myObj.cars.car2 + "<br>";
+//or:
+document.getElementById("demo").innerHTML += myObj.cars["car1"];
+</script>
+
+</body>
+</html>
