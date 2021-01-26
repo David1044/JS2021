@@ -1,0 +1,20 @@
+//TuxHF Code
+<html>
+<body>
+
+<h2>Concat() 3</h2>
+
+<p id="demo"></p>
+
+<script>
+var arr1 = ["Santiago", "David"];
+var arr2 = ["Ximena", "Valeria", "Alejandra"];
+var arr3 = ["Robin", "Morgan"];
+
+var myChildrens = arr1.concat(arr2, arr3); 
+
+document.getElementById("demo").innerHTML = myChildrens;
+</script>
+
+</body>
+</html>
