@@ -1,0 +1,27 @@
+<html>
+<title>Galeria de imagenes</title>
+<head>
+<script lenguage="javascript">
+function ver_imagenes()
+ ( 
+   if(!document.images)
+   return
+   document.images.img.src=
+   document.imagenes.images.options[document.imagenes.imagen.selectedIndex].value
+ )
+</script>
+
+<body>
+    <form name="imagenes">
+     <select name="imagen" size="1" onChange="ver_imagen()">
+         <option>Elige imagen</option>
+         <option value = "img/1.jpg">1</option>
+         <option value = "img/1.jpg">2</option>
+         <option value = "img/1.jpg">3</option>
+     </select>   
+    </form>
+<img src="img/1.jpg" name="imag" width=600 height=436  border=3>
+</body>
+
+</head>
+</html>
