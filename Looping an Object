@@ -1,0 +1,16 @@
+//TuxHF Code
+<!DOCTYPE html>
+<html>
+<body>
+<p id="prueba"></p>
+
+<script>
+var myObj, x;
+myObj = {"name":"David", "age":21, "car":null};
+for (x in myObj) {
+  document.getElementById("prueba").innerHTML += x + "<br>";
+}
+</script>
+
+</body>
+</html>
