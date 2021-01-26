@@ -1,0 +1,31 @@
+//TuxHF Code
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Delete properties of a JSON object.</p>
+
+<p id="demo"></p>
+
+<script>
+var myObj, i, x = "";
+myObj = {
+  "name":"David",
+  "age":21,
+  "cars": {
+  "car1":"Tesla",
+  "car2":"BMW",
+  "car3":"Audi"
+  }
+}
+delete myObj.cars.car2;
+
+for (i in myObj.cars) {
+  x += myObj.cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html
